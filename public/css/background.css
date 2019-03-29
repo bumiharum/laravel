@@ -1,0 +1,98 @@
+body {
+	/* background-image: url('https://www.labellaspasalon.com/wp-content/uploads/2012/10/Backgroud-Website.jpg'); */
+}
+
+/* a.blog {
+	color: white;
+}
+
+a:hover.blog {
+	text-decoration: none;
+	color: grey;
+} */
+
+.card {
+	/* border-radius: 0;
+	filter: grayscale(35%); */
+	-webkit-box-shadow: 0px 2px 31px 0px rgba(82,82,82,1);
+-moz-box-shadow: 0px 2px 31px 0px rgba(82,82,82,1);
+box-shadow: 0px 2px 31px 0px rgba(82,82,82,1);
+
+}
+
+.disabled {
+	pointer-events: none;
+}
+
+
+@media (min-width: 992px) {
+	header {
+		position: absolute;
+		background-color: white;
+		border-bottom: 1px solid #ddd;
+		top: 0;
+		width: 100%;
+		z-index: 11;
+		transition: all 0.9s ease 0s;
+		padding: 15px;
+	}
+
+	.navbar-brand {
+		color: grey;
+		font-weight: bold;
+	}
+
+
+	header.sticky {
+		background-color: white;
+		border-bottom: 1px solid #ddd;
+	}
+
+	header .nav-item .nav-link {
+		color: grey;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+
+	.container-me {
+		margin-top: 130px;
+	}
+
+	/*  */
+	header .dropdown-menu {
+		background-color: white;
+		text-transform: uppercase;
+		margin-top: 23px;
+		/* background-color: #363359; */
+		transition: all 0.9s ease 0s;
+		border: 1px solid #ddd;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.sticky .dropdown-menu {
+		background-color: white;
+		margin-top: 8px;
+		transition: all 0.9s ease 0s;
+		border-radius: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		border: 1px solid #ddd;
+	}
+
+	.dropdown-item:hover {
+		color: grey;
+	}
+
+	.dropdown-item {
+		padding: 8px 15px;
+		color: grey;
+	}
+
+	.dropdown-menu .active {
+		background-color: #ddd;
+		color: grey;
+	}
+
+}

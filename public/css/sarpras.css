@@ -1,0 +1,22 @@
+@media (max-width: 991.98px) {
+  .container-sarpras {
+    margin-top: 80px;
+  }
+
+  .card-sarpras {
+    margin-bottom: -80px;
+    box-shadow: 0 0 0 0;
+  }
+
+  .card-body-sarpras {
+    border: 1px solid #ddd;
+  }
+
+  .card-body-sarpras {
+    padding: 7px 7px 0 7px;
+  }
+
+  .text-center {
+    font-size: 13px;
+  }
+  

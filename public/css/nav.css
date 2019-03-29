@@ -1,0 +1,90 @@
+@media (min-width: 992px) {
+	.navbar-brand {
+		color: white;
+		font-weight: bold;
+	}
+
+	.navbar-brand:hover, .nav-item .nav-link:hover {
+		color: grey;
+	}
+
+	header {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 11;
+		transition: all 0.9s ease 0s;
+		padding: 15px;
+	}
+
+	header.sticky {
+		background-color: rgb(32, 33, 36,0.5);
+		/* background-color: white; */
+		position: fixed;
+		padding: 0;
+		transition: all 0.9s ease 0s;
+		/* border-bottom: 1px solid #4a4d56; */
+	}
+
+	header .nav-item .nav-link {
+		color: white;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+
+	/*  */
+	header .dropdown-menu {
+		background-color: rgb(32, 33, 36,0);
+		text-transform: uppercase;
+		margin-top: 23px;
+		/* background-color: #363359; */
+		transition: all 0.9s ease 0s;
+		border: 0;
+		border-radius: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.sticky .dropdown-menu {
+		background-color: rgb(32, 33, 36,0.5);
+		text-transform: uppercase;
+		margin-top: 8px;
+		/* background-color: #363359; */
+		transition: all 0.9s ease 0s;
+		border: 0;
+		border-radius: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.dropdown-item {
+		padding: 8px 15px;
+		color: white;
+		font-weight: bold;
+	}
+}
+
+@media (max-width: 991.98px) {
+
+	.navbar-brand {
+		font-size: 15px;
+		color: black;
+	}
+
+	header {
+		position: fixed;
+		z-index:1;
+		width: 100%;
+		background-color: white;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.container-home {
+		padding-top: 55px;
+	}
+
+}
+
+.navbar-toggler {
+	padding: 0;
+}

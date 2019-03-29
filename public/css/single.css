@@ -1,0 +1,13 @@
+@media (max-width: 575.98px) {
+  .container-single {
+    margin-top: 20px;
+  }
+
+  .h1-single {
+    font-size: 20px;
+  }
+
+  .text-muted {
+    font-size: 15px;
+  }
+}

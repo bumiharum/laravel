@@ -1,0 +1,92 @@
+@media (max-width: 991.98px) {
+  .container-blog {
+    margin-top: 20px;
+  }
+
+  .card-blog {
+    box-shadow: 0 0 0 0;
+  }
+
+  .card-body-blog {
+    padding: 0;
+  }
+
+  .card-title {
+    font-size: 12px;
+    margin-left: -20px;
+  }
+
+  .text-muted {
+    font-size: 8px;
+    margin-top: -10px;
+    margin-left: -20px;
+  }
+
+  .p-blog {
+    visibility: collapse;
+    display: none;
+  }
+
+  /*  */
+  .page-link {
+      font-size: 10px;
+      padding: 5px 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-blog {
+    box-shadow: 0 0 0 0;
+  }
+
+  .card-body-blog {
+    padding: 0;
+  }
+
+  .card-title {
+    margin-left: -10px;
+  }
+
+  .text-muted {
+    margin-left: -10px;
+  }
+
+  .p-blog {
+    margin-left: -10px;
+  }
+
+  /* PAGINATION */
+    .pagination {
+      margin-top: 20px;
+    }
+
+}
+
+/*  */
+
+.page-link {
+    color: grey;
+    background-color: #fff;
+    border: 1px solid grey;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: white;
+    font-weight: bold;
+    background-color: grey;
+    border-color: grey;
+}
+
+.page-link:hover {
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  border-color: grey;
+}
+
+.page-item.disabled .page-link {
+  color: grey;
+  background-color: white;
+  border-color:  grey;
+}
